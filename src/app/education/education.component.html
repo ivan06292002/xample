@@ -4,7 +4,10 @@
     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
       <div class="flex-grow-1">
         <h3 class="mb-0">Holy Angel University</h3>
-        <div class="subheading mb-3">Bachelor of Web Development</div>
+        <div class="subheading mb-3">
+          <! -- Property Binding -->
+          <input type="text" [value]="college" />
+        </div>
         <div>Web Developer - Web Development Track</div>
         <p>2021 - 2024</p>
       </div>
@@ -15,7 +18,8 @@
     <div class="d-flex flex-column flex-md-row justify-content-between">
       <div class="flex-grow-1">
         <h3 class="mb-0">Holy Angel University</h3>
-        <div class="subheading mb-3">Senior High School - STEM</div>
+        <! -- Property Binding -->
+        <div class="subheading mb-3"><input type="text" [value]="shs" /></div>
         <p>2019 - 2020</p>
       </div>
       <div class="flex-shrink-0">

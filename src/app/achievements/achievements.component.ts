@@ -5,4 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './achievements.component.html',
   styleUrls: ['./achievements.component.css'],
 })
-export class AchievementsComponent {}
+export class AchievementsComponent {
+  //Style Binding
+  myFirstColor = 'blue';
+  mySecondColor = 'red';
+}

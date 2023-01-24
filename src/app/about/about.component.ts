@@ -5,4 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css'],
 })
-export class AboutComponent {}
+export class AboutComponent {
+  //Interpolation
+  contact = '288 Clement Street · Porac Pampanga · 09973312221·';
+  email = 'cpdayrit@student.hau.edu.ph';
+}

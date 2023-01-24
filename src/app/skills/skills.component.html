@@ -14,15 +14,18 @@
     <ul class="fa-ul mb-0">
       <li>
         <span class="fa-li"><i class="fas fa-check"></i></span>
-        Mobile-First, Responsive Design
+        <! -- Class Binding -->
+        <p [class]="appliedCSSClass">Mobile-First, Responsive Design</p>
       </li>
       <li>
         <span class="fa-li"><i class="fas fa-check"></i></span>
-        Cross Browser Testing & Debugging
+        <! -- Class Binding -->
+        <p [class]="notappliedCSSClass">Cross Browser Testing & Debugging</p>
       </li>
       <li>
         <span class="fa-li"><i class="fas fa-check"></i></span>
-        Cross Functional Teams
+        <! -- Class Binding -->
+        <p [class.red]="appliedCSSClass">Cross Functional Teams</p>
       </li>
     </ul>
   </div>

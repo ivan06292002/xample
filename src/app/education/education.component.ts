@@ -5,4 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.css'],
 })
-export class EducationComponent {}
+export class EducationComponent {
+  //Property Binding
+  college: String = 'Bachelor of Web Development';
+  shs: String = 'Senior High School - STEM';
+}

@@ -5,4 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css'],
 })
-export class SkillsComponent {}
+export class SkillsComponent {
+  //Class Binding
+  appliedCSSClass = 'orange';
+  notappliedCSSClass = false;
+}
